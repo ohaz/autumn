@@ -1,7 +1,8 @@
-package engineer.ohaz
+package engineer.ohaz.views
 
-import tornadofx.*
+import engineer.ohaz.AutumnModel
 import org.controlsfx.control.Notifications
+import tornadofx.*
 
 class AutumnForm : View("Autumn"){
     val model: AutumnModel by inject()
