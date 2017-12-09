@@ -23,7 +23,7 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.9
 
 repositories {
     mavenCentral()
@@ -31,6 +31,7 @@ repositories {
 
 dependencies {
     compile 'no.tornado:tornadofx:1.7.13'
+    compile 'org.controlsfx:controlsfx:8.40.14'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
